@@ -1,0 +1,23 @@
+*{
+  margin:0;
+}
+.header-div{
+  width:100%;
+  text-align:center;
+  background-image: url('flowerzoom-min.jpg');
+  padding: 40px;
+}
+.header-div h1{
+  width:30%;
+  margin-left:35%;
+  
+}
+
+
+.post1,
+.post2{
+  width:48%;
+  display:inline-block;
+  border: 2px solid #000;
+  margin: 10px;
+}
