@@ -9,6 +9,7 @@ $navbar-default-bg: #e08283;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/*---home page------*/
 #logo{
   float:left;
   color: #fff;
@@ -33,6 +34,8 @@ $navbar-default-bg: #e08283;
   margin-bottom:280px;
 }
 
+/*---button------*/
+
 .btn-xlarge{
   background-color:#d34c4d;
   border: 2px solid #d34c4d;
@@ -44,14 +47,30 @@ $navbar-default-bg: #e08283;
   border: 2px solid #d34c4d;
 }
 
+/*---the div for action of edit,delete and view------*/
 .article-actions {
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
 }
 
+/*---show------*/
 .description{
   margin-top:0;
 }
+
+
+/*---index well------*/
+.article-title{
+  font-weight:bold;
+  font-size: 1.5em;
+}
+.article-body{
+  border-top:1px solid #eaeaea;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+/*---footer------*/
 footer{
   background-color:#555;
   color: #fefefe;
